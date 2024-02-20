@@ -375,7 +375,7 @@ while true; do
     fi
     print info "Scale Upgrade not yet completed. Refer the tables below"
     monitor_scale_progress_table
-    print_subsecton
+    print_subsection
     pods_blocking_drains
     sleep "$timedifference"
     print info "Press 'q' within 5 seconds to quit"
